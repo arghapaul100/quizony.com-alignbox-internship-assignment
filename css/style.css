@@ -136,7 +136,7 @@ nav{
 	width: 10px;
   }
   ::-webkit-scrollbar-track {
-	background: #f1f1f1; 
+	background: white; 
   }
   ::-webkit-scrollbar-thumb {
 	background: #888; 
@@ -233,8 +233,9 @@ nav{
 	font-family: 'poppins',sans-serif;
 }
 .main .post .box .card-title p{
-	font-size: 1.4vw;
+	font-size: 1.3vw;
 	margin: 5px;
+	text-align: center;
 }
 .main .post .box .card-subtitle{
 	width: 75%;
@@ -431,7 +432,8 @@ nav{
 		font-size: 5vw;
 	}
 	.main .post .box .card-title p{
-		font-size: 2.5vw;
+		font-size: 2vw;
+		font-weight: 600;
 		margin: 5px;
 	}
 	.main .post .box .card-subtitle p{
@@ -465,7 +467,7 @@ nav{
 		height: 80vw;
 	}
 	.main .post .box .card-title p{
-		font-size: 5vw;
+		font-size: 3.8vw;
 		margin: 5px;
 	}
 	.main .post .box .card-subtitle p{
