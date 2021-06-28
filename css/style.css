@@ -345,6 +345,7 @@ nav{
 	align-items: center;
 	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 	margin: 10px 0px;
+	cursor: pointer;
 }
 .main .sideBar .container .inner-container .avtar{
 	height: 100%;
