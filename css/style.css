@@ -249,7 +249,6 @@ nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color: white;
 }
 .main .post .box .icons div{
 	font-size: 1vw;
