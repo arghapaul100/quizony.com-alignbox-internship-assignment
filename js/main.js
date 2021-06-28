@@ -45,25 +45,25 @@ function createTime() {
 	txtNode2 = document.createTextNode("1 month ago");
 	time.appendChild(txtNode2);
 }
-function createCardTitle() {
+function createCardTitle(text) {
 	card_title = document.createElement("div");
 	card_title.classList.add('card-title');
 	inner_box.appendChild(card_title);
 	var cardTitleText = document.createElement('p');
 
 	//To create textNode and append into p tag
-	txtNode3 = document.createTextNode("What's My Aesthetic?");
+	txtNode3 = document.createTextNode(`${text}`);
 	cardTitleText.appendChild(txtNode3);
 	card_title.appendChild(cardTitleText);
 }
-function createCardSubtitle() {
+function createCardSubtitle(text) {
 	card_subtitle = document.createElement("div");
 	card_subtitle.classList.add('card-subtitle');
 	inner_box.appendChild(card_subtitle);
 	cardSubtitleText = document.createElement('p');
 
 	//To create textNode and append into p tag
-	txtNode3 = document.createTextNode("What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo...");
+	txtNode3 = (text.length > 95) ? document.createTextNode(`${text.slice(0,95)}...`) : document.createTextNode(`${text}`);
 	cardSubtitleText.appendChild(txtNode3);
 	card_subtitle.appendChild(cardSubtitleText);
 }
@@ -140,8 +140,8 @@ for (var i = 0; i < data.length; i++) {
 	createCard_avtar(data[i]['avtar']);
 	createQuiz();
 	createTime();
-	createCardTitle();
-	createCardSubtitle();
+	createCardTitle(data[i]["title"]);
+	createCardSubtitle(data[i]["subtitle"]);
 	createIcons();
 }
 
