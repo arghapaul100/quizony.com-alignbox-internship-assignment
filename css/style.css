@@ -9,6 +9,7 @@ body{
 	overflow-x: hidden;
 	/*background-color: black;*/
 	background-color: #F4F4F4;
+	scroll-behavior: smooth;
 }
 nav{
 	background-color: #e7e7e7;
