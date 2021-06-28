@@ -1,0 +1,52 @@
+data = [
+	{
+		"avtar": "image1.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	},
+	{
+		"avtar": "image2.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	},
+	{
+		"avtar": "image3.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	},
+	{
+		"avtar": "image4.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	},
+	{
+		"avtar": "image5.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	},
+	{
+		"avtar": "image6.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	},
+	{
+		"avtar": "image7.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	},
+	{
+		"avtar": "image8.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	},
+	{
+		"avtar": "image9.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	},
+	{
+		"avtar": "image10.jpg",
+		"title": "What's My Aesthetic?",
+		"subtitle": "What is my aesthetic? Answer now and our asthetic finder will tell you wheather you are glam, spoo"
+	}
+]
