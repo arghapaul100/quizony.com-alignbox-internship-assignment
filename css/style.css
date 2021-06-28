@@ -128,7 +128,7 @@ nav{
 	background-color: white;
 	border-style: none;
 	padding: 5px 10px;
-	font-size: 3.5vw;
+	font-size: 4vw;
 	border : 1px solid rgba(0,0,0,0.1);
 }
 ::-webkit-scrollbar {
@@ -249,6 +249,7 @@ nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	/* background-color: white; */
 }
 .main .post .box .icons div{
 	font-size: 1vw;
@@ -473,7 +474,7 @@ nav{
 		font-size: 3vw;
 	}
 	.responsive-button button{
-		font-size: 4.8vw;
+		font-size: 5vw;
 	}
 }
 @media screen and (max-width: 600px){
